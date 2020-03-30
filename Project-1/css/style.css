@@ -21,3 +21,143 @@ a:active {
     background-color: transparent;
     text-decoration: none;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+.landing {
+    text-align: center;
+    margin: 400px 50px 500px 50px;
+}
+
+.landing h2 {
+    font-size: 25px;
+}
+
+
+html {
+    font-family: Poppins;
+}
+
+body {
+    width: 100%;
+    background: #fff;
+}
+
+.wrapper {
+   width: 90%;
+   margin:0 auto; 
+}
+
+.navBar::after {
+    content: "";
+    clear: both;
+    display: table;   
+}
+
+h1 {
+    color: #37393a;
+    font-size: 48px;
+    
+}
+
+p{
+    color: #708090;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+nav {
+    height: 70px;
+    line-height: 70px;
+}
+
+nav a img {
+    vertical-align: middle;
+    width: 100px;
+    height: 35px;
+    margin: 100px 47%;
+}
+
+nav a:nth-child(2) {
+    float: right;
+}
+
+header {
+    margin: 100px 0 200px 120px;
+}
+
+header p {
+    width: 60%;
+    margin-top: 10px;
+}
+
+
+.work {
+    text-align: center;
+    width: 100%;
+}
+
+.work img {
+    margin: 5%;
+    width: 40%;
+}
+
+.header2 {
+    margin: 130px 100px 150px 120px;
+}
+
+.header2 p {
+    margin-top: 10px;
+}
+
+#time {
+    text-align: center;
+
+}
+
+#indepth {
+    text-align: center;
+    margin: 350px 300px;
+    color: #1b1b1b;
+}
+
+.header2 ul {
+    text-decoration: none;
+    margin: 50px 25px;
+    color: #37393a;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.work2 {
+    width: 100%;
+    text-align: center;
+}
+
+.work2 img {
+    margin: 3%;
+    width: 94%;
+}
+
+.work3 {
+    width: 100%;
+    text-align: center;
+}
+
+.work3 img {
+    margin: 3%;
+    width: 94%;
+}
+
+footer p {
+    text-align: center;
+    color: grey;
+    margin: 60px auto;
+}
